@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-direction: row;
+}
+/* #cardContainer img{width: 100%; height: 100%} */
+.top{
+    width: 100%;
+    height:auto;
+    background-color:antiquewhite;
+   
+}
+
+#clear{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
